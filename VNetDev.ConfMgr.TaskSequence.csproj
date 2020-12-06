@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>7.3</LangVersion>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.0-beta</PackageVersion>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>1.0.0-beta</Version>
+        <Authors>Pavel Volkov</Authors>
+        <Company />
+        <RepositoryUrl>https://github.com/epavvol/ConfMgrTaskSequence.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>vNetDevLogo.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="vNetDevLogo.png">
+            <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <PackagePath />
+        </None>
+    </ItemGroup>
+</Project>
